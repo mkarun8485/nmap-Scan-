@@ -1,0 +1,12 @@
+# Nmap 7.98 scan initiated Mon Sep 22 14:42:12 2025 as: nmap -sS -oN scan_results.txt 10.92.112.229
+Nmap scan report for 10.92.112.229
+Host is up (0.00043s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+4343/tcp open  unicall
+4449/tcp open  privatewire
+
+# Nmap done at Mon Sep 22 14:42:12 2025 -- 1 IP address (1 host up) scanned in 0.88 seconds
